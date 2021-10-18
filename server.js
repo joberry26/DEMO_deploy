@@ -24,23 +24,23 @@ app.get('/index.html', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/img/bark2'))
+    res.sendFile(path.join(__dirname, '/public/img/bark2.jpg'))
 })
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/img/flower2'))
+    res.sendFile(path.join(__dirname, '/public/img/flower2.jpg'))
 })
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/img/mountain2'))
+    res.sendFile(path.join(__dirname, '/public/img/mountain2.jpg'))
 })
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/img/puddle2'))
+    res.sendFile(path.join(__dirname, '/public/img/puddle2.jpg'))
 })
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/img/sunset2'))
+    res.sendFile(path.join(__dirname, '/public/img/sunset2.jpg'))
 })
 
 
