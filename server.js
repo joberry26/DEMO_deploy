@@ -26,8 +26,8 @@ app.get('/index.html', (req, res) => {
 
 app.get('/img/bark2.jpg', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/img/bark2.jpg'));
-    let text = document.querySelector('h4')
-    text.innerHTML = 'hit'
+    // let text = document.querySelector('h4')
+    // text.innerHTML = 'hit'
 });
 
 app.get('/img/flower2.jpg', (req, res) => {
