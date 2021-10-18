@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const { bark, flower, mountain, puddle, sunset } = require("./controller");
+// const { bark, flower, mountain, puddle, sunset } = require("./controller");
 
 const app = express();
 
@@ -29,15 +29,25 @@ app.get('/index.html', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/index.html'))
 })
 
-app.get('/img/bark2.jpg', bark);
+app.get('/img/bark2.jpg', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/img/bark2.jpg'))
+});
 
-app.get('/img/flower2.jpg', flower);
+app.get('/img/flower2.jpg', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/img/flower2.jpg'))
+});
 
-app.get('/img/mountain2.jpg', mountain);
+app.get('/img/mountain2.jpg', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/img/mountain2.jpg'))
+ });
 
-app.get('/img/puddle2.jpg', puddle);
+app.get('/img/puddle2.jpg', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/img/puddle2.jpg'))
+});
 
-app.get('/img/sunset2.PNG', sunset);
+app.get('/img/sunset2.PNG', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/img/sunset2.png'))
+});
 
 const port = process.env.PORT || 4000;
 
