@@ -13,6 +13,11 @@ app.get('/products.html', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/products.html'))
 })
 
+app.get('/index.html', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/index.html'))
+})
+
+
 const port = process.env.PORT || 4000
 
 app.listen(port, () => console.log(`run it on ${port}`))
