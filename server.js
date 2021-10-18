@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/main.js'))
 });
 
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/img'))
+});
+
 app.get('/products.html', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/products.html'))
 })
