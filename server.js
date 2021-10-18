@@ -29,16 +29,16 @@ app.get('/index.html', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/index.html'))
 })
 
-app.get('/img/bark2.jpg', bark)
+app.get('/img/bark2.jpg', bark);
 
-app.get('/img/flower2.jpg', flower)
+app.get('/img/flower2.jpg', flower);
 
-app.get('/img/mountain2.jpg', mountain)
+app.get('/img/mountain2.jpg', mountain);
 
-app.get('/img/puddle2.jpg', puddle)
+app.get('/img/puddle2.jpg', puddle);
 
-app.get('/img/sunset2.PNG', sunset)
+app.get('/img/sunset2.PNG', sunset);
 
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 4000;
 
-app.listen(port, () => console.log(`run it on ${port}`))
+app.listen(port, () => console.log(`run it on ${port}`));
