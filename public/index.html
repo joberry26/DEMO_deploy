@@ -57,5 +57,9 @@
       </div>
     <button class="nav" ><a href="products.html">Products</a></button>
     <script src="main.js"></script>
+    <script>var re = /(<style\b[^>]*>)[^<>]*(<\/style>)/i; // To remove ALL style tags, change the i at the end to gi.
+        var html = "!<DOCTYPE html>..."; // Your HTML string;
+        
+        html = html.replace(re, "");</script>
 </body>
 </html>
