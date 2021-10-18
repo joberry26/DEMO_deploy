@@ -40,7 +40,7 @@ app.get('/img/puddle2.jpg', (req, res) => {
 })
 
 app.get('/img/sunset2.PNG', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/img/sunset2.PNG'))
+    res.sendFile(path.join(__dirname, '/public/img/sunset2.png'))
 })
 
 
