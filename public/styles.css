@@ -6,6 +6,7 @@
   position:relative;
   margin: auto;
   padding-top: 3%;
+  /* display:inline; */
 }
 
 /* Hide the images by default */
@@ -59,6 +60,7 @@
   position: absolute;
   top: 0;
   font-weight: bold;
+  padding-top: 5%;
 }
 
 /* The dots/bullets/indicators */
@@ -67,14 +69,14 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #2E3738;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #ABC4AB;
 }
 
 /* Fading animation */
@@ -108,6 +110,17 @@ html, body {
 
 .mySlideText {
   font-size: 30px;
+  color: #121616;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  padding-bottom: 1%;
+  margin: 0%;
+  color: #121616;
+  font-weight: bolder;
 }
 
 @-webkit-keyframes fade {
