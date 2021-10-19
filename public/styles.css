@@ -2,10 +2,10 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
+  max-width: 1250px;
+  position:relative;
   margin: auto;
-  /* display: flex; */
+  padding-top: 3%;
 }
 
 /* Hide the images by default */
@@ -54,10 +54,11 @@
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
+  font-size: 14px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  font-weight: bold;
 }
 
 /* The dots/bullets/indicators */
@@ -90,12 +91,23 @@ img {
 
 section {
     display: flex;
-    justify-content: flex-end;
-    height: 5%
+    justify-content: center;
+    /* height: 5%; */
+}
+
+.filler {
+  /* height: 10%; */
+  padding: none;
+  margin: 0%;
 }
 
 html, body {
-    height: 95%
+    height: 95%;
+    background-color: #5C6D70;
+}
+
+.mySlideText {
+  font-size: 30px;
 }
 
 @-webkit-keyframes fade {

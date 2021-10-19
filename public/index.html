@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <!-- <link rel="stylesheet" href="styles.css"> -->
-    <link rel="stylesheet" href="/style">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="/style"> -->
 </head>
 <body>
     <div>
@@ -16,35 +16,30 @@
             <div class="mySlides fade">
             <div class="numbertext">1 / 5</div>
             <img src="img/bark2.jpg" class="img" id="1">
-            <div class="text">Bark</div>
             </div>
         
             <div class="mySlides fade">
             <div class="numbertext">2 / 5</div>
             <img src="img/flower2.jpg" style="width:100%" id="2">
-            <div class="text">Rose</div>
             </div>
         
             <div class="mySlides fade">
             <div class="numbertext">3 / 5</div>
             <img src="img/mountain2.jpg" style="width:100%" id="3">
-            <div class="text">Mountain</div>
             </div>
             
             <div class="mySlides fade">
             <div class="numbertext">4 / 5</div>
             <img src="img/puddle2.jpg" style="width:100%" id="4">
-            <div class="text">Puddle</div>
             </div>
             
             <div class="mySlides fade">
             <div class="numbertext">5 / 5</div>
             <img src="img/sunset2.PNG" style="width:100%" id="5">
-            <div class="text">Sunset</div>
             </div>
             <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
         </div>
             <br>
         
@@ -58,12 +53,21 @@
             </div>
 
         <!-- Description of each photo-->
-            <h2 id="imgText"></h2>
+           
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    
+    <div class="filler">
+        <h4 class="mySlideText" style="text-align: center;">Tree Bark</h4>
+        <h4 class="mySlideText" style="text-align: center;">White Rose</h4>
+        <h4 class="mySlideText" style="text-align: center;">Mountainside</h4>
+        <h4 class="mySlideText" style="text-align: center;">Puddle</h4>
+        <h4 class="mySlideText" style="text-align: center;">Sunset</h4>
+
+        
+    </div>>
     <section>
         <button class="nav" ><a href="products.html">Products</a></button>
-
     </section>
 
     <script src="main.js"></script>
