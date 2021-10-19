@@ -1,3 +1,10 @@
+// let img1 = document.querySelector("#1");
+// let img2 = document.querySelector("#2");
+// let img3 = document.querySelector("#3");
+// let img4 = document.querySelector("#4");
+// let img5 = document.querySelector("#5");
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -31,3 +38,17 @@ function currentSlide(n) {
         dots[slideIndex-1].className += " active";
 
 }
+
+function slideText () {
+    let text = document.getElementById('imgText')
+    if (text) {
+        text.remove();
+    }
+
+    if(slideIndex === "1") {
+        text.textContent = "its a tree";
+    }
+}
+
+
+
