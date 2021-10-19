@@ -56,11 +56,11 @@
 .numbertext {
   color: #f2f2f2;
   font-size: 14px;
-  padding: 8px 12px;
+  /* padding: 8px 12px; */
   position: absolute;
-  top: 0;
+  top: 12%;
   font-weight: bold;
-  padding-top: 5%;
+  /* margin-bottom: 10%; */
 }
 
 /* The dots/bullets/indicators */
@@ -89,6 +89,7 @@
 
 img {
     width: 100%;
+    padding-top: 1%;
 }
 
 section {
@@ -97,7 +98,7 @@ section {
     /* height: 5%; */
 }
 
-.filler {
+.textContainer {
   /* height: 10%; */
   padding: none;
   margin: 0%;
@@ -108,8 +109,64 @@ html, body {
     background-color: #5C6D70;
 }
 
-.mySlideText {
+h4 {
+  text-align: center;
   font-size: 30px;
+  color: #121616;
+  margin: 1%;
+  font-family: sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+  color: #121616;
+  padding: none;
+  margin: none;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: lighter;
+  
+}
+
+h2 {
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 30px;
+  color: #121616;
+  padding: none;
+  margin: none;
+}
+
+
+
+
+h1 {
+  font-family: sans-serif;
+  padding: 0px;
+  padding-bottom: 1%;
+  margin: 0%;
+  color: #121616;
+  font-weight: bolder;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+.header button {
+    background-color: #ABC4AB;
+    color: #121616;
+    height: 80%;
+    margin-top: .5%;
+    float: right;
+}
+
+.header a {
   color: #121616;
 }
 
@@ -117,18 +174,21 @@ input {
   background:transparent; 
   border:none; 
   color:transparent;
+  float: inline-start;
+  height: 100%;
+  width: 65%
 }
 
 
-h1 {
-  display: flex;
-  justify-content: center;
-  padding: 0px;
-  padding-bottom: 1%;
-  margin: 0%;
-  color: #121616;
-  font-weight: bolder;
+
+.header h1{
+  line-height: 50px;
+  width: 60%;
+  position: absolute;
+  text-align: right;
+  float: right;
 }
+
 
 @-webkit-keyframes fade {
   from {opacity: .4}
