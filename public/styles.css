@@ -113,6 +113,13 @@ html, body {
   color: #121616;
 }
 
+input {
+  background:transparent; 
+  border:none; 
+  color:transparent;
+}
+
+
 h1 {
   display: flex;
   justify-content: center;
